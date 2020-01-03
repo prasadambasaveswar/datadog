@@ -4,9 +4,3 @@
 
 - include: pkg-redhat.yml
   when: ansible_os_family == "RedHat"
-
-- include: agent5.yml
-  when: not datadog_agent6
-
-- include: agent6.yml
-  when: datadog_agent6
