@@ -12,7 +12,7 @@ datadog_user: dd-agent
 datadog_group: root
 
 # default apt repo
-datadog_apt_repo: "deb http://apt.datadoghq.com/ stable main"
+datadog_apt_repo: "deb http://apt.datadoghq.com/ stable 6"
 
 # default yum repo and keys
 datadog_yum_repo: "https://yum.datadoghq.com/rpm/{{ ansible_userspace_architecture }}/"
