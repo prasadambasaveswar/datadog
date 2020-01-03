@@ -1,9 +1,9 @@
 ---
-- hosts: mynodes
-  remote_user: ubuntu
+- hosts: localhost
+  remote_user: root
   become: yes
   roles:
-    - role: Datadog.datadog
+    - role: datadog
   vars:
     datadog_api_key: 6a0d3af4c9965fa62cb0d03636ec834d
     datadog_agent_version: 1:6.16.0-1
