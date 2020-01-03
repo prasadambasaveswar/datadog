@@ -1,6 +1,6 @@
 ---
-- hosts: mynodes
-  remote_user: ubuntu
+- hosts: localhost
+  remote_user: root
   become: yes
   roles:
     - role: datadog
