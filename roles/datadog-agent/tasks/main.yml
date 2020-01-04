@@ -6,4 +6,5 @@
   when: ansible_os_family == "RedHat"
 
 - include: agent6.yml
-  when: datadog_agent6
+
+- include: tomcat.yml

@@ -1,9 +1,7 @@
 ---
 - hosts: localhost
-  remote_user: root
-  become: yes
   roles:
     - role: datadog-agent
   vars:
-    datadog_api_key: 6a0d3af4c9965fa62cb0d03636ec834d
+    datadog_api_key: 1010626f8d1e1432eff1bf7aed1d4f60
     datadog_agent_version: 1:6.16.0-1
